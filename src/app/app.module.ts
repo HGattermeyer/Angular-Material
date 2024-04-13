@@ -8,12 +8,28 @@ import { MaterialModule } from './material/material.module';
 import { ButtonsIconsComponent } from './buttons-icons/buttons-icons.component';
 import { FormFieldInputComponent } from './form-field-input/form-field-input.component';
 import { FormsModule } from '@angular/forms';
+import { ProgressbarSpinnersComponent } from './progressbar-spinners/progressbar-spinners.component';
+import { TabsComponent } from './tabs/tabs.component';
+import { DatepickerComponent } from './datepicker/datepicker.component';
+import { SnackbarComponent } from './snackbar/snackbar.component';
+import { SnackbarMsnComponent } from './snackbar/snackbar-msn/snackbar-msn.component';
+import { DialogComponent } from './dialog/dialog.component';
+import { DialogModalComponent } from './dialog/dialog-modal/dialog-modal.component';
+import { DatatableComponent } from './datatable/datatable.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ButtonsIconsComponent,
-    FormFieldInputComponent
+    FormFieldInputComponent,
+    ProgressbarSpinnersComponent,
+    TabsComponent,
+    DatepickerComponent,
+    SnackbarComponent,
+    SnackbarMsnComponent,
+    DialogComponent,
+    DialogModalComponent,
+    DatatableComponent
   ],
   imports: [
     BrowserModule,
