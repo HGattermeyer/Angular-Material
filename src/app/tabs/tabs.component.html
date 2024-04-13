@@ -1,0 +1,87 @@
+<h1>Simple Tabs</h1>
+
+<mat-tab-group
+  mat-stretch-tabs="false"
+  mat-align-tabs="start"
+  animationDuration="1000"
+>
+  <mat-tab label="tabName">
+    <ng-template mat-tab-label>
+      <mat-icon class="tab-icon">settings</mat-icon>
+      Settings
+    </ng-template>
+    Content
+  </mat-tab>
+  <mat-tab label="tabName">
+    <ng-template mat-tab-label>
+      <mat-icon class="tab-icon">person</mat-icon>
+      Persons
+    </ng-template>
+    Content 3
+  </mat-tab>
+</mat-tab-group>
+
+<br /><br />
+
+<h1>Tabs - Stretch and Below</h1>
+
+<mat-tab-group class="mat-elevation-z4" headerPosition="below">
+  <mat-tab label="tabName">
+    <ng-template mat-tab-label>
+      <mat-icon class="tab-icon">settings</mat-icon>
+      Settings
+    </ng-template>
+    Content
+  </mat-tab>
+  <mat-tab label="tabName">
+    <ng-template mat-tab-label>
+      <mat-icon class="tab-icon">person</mat-icon>
+      Persons
+    </ng-template>
+    Content 3
+  </mat-tab>
+</mat-tab-group>
+<br /><br />
+
+<h1>Tabs - Color</h1>
+
+<mat-tab-group
+  class="mat-elevation-z4"
+  headerPosition="below"
+  mat-stretch-tabs="false"
+  mat-align-tabs="start"
+  color="warn"
+  backgroundColor="primary"
+  animationDuration="0"
+>
+  <mat-tab label="tabName">
+    <div class="mat-tab">
+      <ng-template mat-tab-label>
+        <mat-icon class="tab-icon">settings</mat-icon>
+        Settings
+      </ng-template>
+      <h1>Settings</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime porro
+        tenetur magnam suscipit officiis nesciunt esse qui tempore saepe culpa!
+        Dolor placeat quisquam dignissimos! Sint tempore alias perferendis quae
+        animi?
+      </p>
+    </div>
+  </mat-tab>
+  <mat-tab label="tabName">
+    <div class="mat-tab">
+      <ng-template mat-tab-label>
+        <mat-icon class="tab-icon">person</mat-icon>
+        Persons
+      </ng-template>
+      <h1>Person</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae,
+        ea alias voluptatibus sit minima laboriosam inventore? Omnis ipsam autem
+        error expedita quod fugit sit voluptatum fuga quibusdam temporibus!
+        Quam, modi.
+      </p>
+    </div>
+  </mat-tab>
+</mat-tab-group>

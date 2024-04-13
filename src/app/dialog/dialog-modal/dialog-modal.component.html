@@ -1,0 +1,12 @@
+<h1 mat-dialog-title>Charlotte is the best ({{ data }})</h1>
+<div mat-dialog-content>Do you agree Charlotte is the best cat?</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close color="primary">
+    <mat-icon>thumb_up</mat-icon>
+    Yes
+  </button>
+  <button mat-button (click)="closeDialog()" color="accent">
+    <mat-icon>thumb_up</mat-icon>
+    Yes
+  </button>
+</div>
