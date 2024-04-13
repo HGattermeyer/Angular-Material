@@ -7,7 +7,10 @@ import { TabsComponent } from './tabs/tabs.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { SnackbarComponent } from './snackbar/snackbar.component';
 import { DialogComponent } from './dialog/dialog.component';
+<<<<<<< HEAD
 import { DatatableComponent } from './datatable/datatable.component';
+=======
+>>>>>>> 96302aaaff4a6a3094bc0e41cdeece081b6b5b59
 
 const routes: Routes = [
   { path: 'buttonIcon', component: ButtonsIconsComponent },
@@ -17,7 +20,10 @@ const routes: Routes = [
   { path: 'datepicker', component: DatepickerComponent },
   { path: 'snackbar', component: SnackbarComponent },
   { path: 'dialog', component: DialogComponent },
+<<<<<<< HEAD
   { path: 'datatable', component: DatatableComponent },
+=======
+>>>>>>> 96302aaaff4a6a3094bc0e41cdeece081b6b5b59
 ];
 
 @NgModule({

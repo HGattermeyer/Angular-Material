@@ -15,7 +15,10 @@ import { SnackbarComponent } from './snackbar/snackbar.component';
 import { SnackbarMsnComponent } from './snackbar/snackbar-msn/snackbar-msn.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { DialogModalComponent } from './dialog/dialog-modal/dialog-modal.component';
+<<<<<<< HEAD
 import { DatatableComponent } from './datatable/datatable.component';
+=======
+>>>>>>> 96302aaaff4a6a3094bc0e41cdeece081b6b5b59
 
 @NgModule({
   declarations: [
@@ -28,8 +31,12 @@ import { DatatableComponent } from './datatable/datatable.component';
     SnackbarComponent,
     SnackbarMsnComponent,
     DialogComponent,
+<<<<<<< HEAD
     DialogModalComponent,
     DatatableComponent
+=======
+    DialogModalComponent
+>>>>>>> 96302aaaff4a6a3094bc0e41cdeece081b6b5b59
   ],
   imports: [
     BrowserModule,
